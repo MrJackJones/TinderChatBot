@@ -13,7 +13,7 @@ session = requests.Session()
 # Подключаем бота
 def ai_bot(data):
     # Ключ  API для бота
-    request = apiai.ApiAI('6244ca69907144e0a397f6081f100983').text_request()
+    request = apiai.ApiAI('API_TOKEN').text_request()
     request.lang = 'ru'
     request.session_id = 'TinChatBot'
     request.query = data
