@@ -1,5 +1,7 @@
 # TinderChatBot
 
+Новая версия бота с GUI интерфейсом на Django тут: https://github.com/MrJackJones/TinderBot
+
 ## Возможности:
 
 1. -p, --parser - Лайк пользователя и получение ID
